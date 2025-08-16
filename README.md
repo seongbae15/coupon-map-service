@@ -41,6 +41,8 @@
             python main.py
             # 작업 완료 후.
             cd ..
+        - Crawling 결과 확인
+        ![crawling_result](./data/crawling_result.png)
     - DB 저장: 추출한 .json파일을 DB(SQLite)에 저장
         - 데이터 변환 과정은 네트워크 속도와 API 호출 제한에 따라 상당한 시간이 소요될 수 있습니다.(Geocoding API에서 위도, 경도를 추출할 수 없는 가맹점은 제외됨.)
         ```bash
